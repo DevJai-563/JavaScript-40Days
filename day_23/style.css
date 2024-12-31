@@ -1,0 +1,40 @@
+/* Universal Selector */
+* {
+    margin-top: auto;
+    margin-left: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selector */
+body {
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #19f1a9ec;
+    color: rgb(75, 61, 61);
+    line-height: 2;
+}
+
+
+/* Grouping Selectors */
+h1, h2, h3 {
+    align-items: center;
+    font-weight: bold;
+    padding: 10px;
+    color: #19f1a9ec;
+    font-size: x-large;
+    background-color: #164132ec;
+
+    
+}
+    
+#ans {           
+    margin-left: 50px;
+    font-size: 20px;            
+    color: rgba(1, 29, 1, 0.644);    
+    background-size: contain;            
+    background-color: #06deee;
+    border-radius: 10px;
+    width: fit-content;
+    
+}
