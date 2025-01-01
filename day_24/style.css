@@ -1,0 +1,22 @@
+.red{
+    color: red;
+}
+
+.yellow{
+    color: yellowgreen;
+}
+.blk_bckgd{
+    background-color: black;
+   
+    background-size: contain;
+}
+.sty1{
+    color: skyblue;
+    font-size: large;
+}
+.orange_bckgd{
+    background-color: orange;
+}
+.navy_bckgd{
+    background-color: rgb(11, 218, 173);
+}
