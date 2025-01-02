@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(140, 247, 197);;
+}
+.Orderplz{
+    margin-left: 20px;
+}
+
+
+#b1,#b2,#b3,#b5,#b6{
+    margin-top: 10px;
+    font-size: 20px;      
+    font-style: bold;   
+    padding: 15px 30px;      
+    border: 2px solid black; 
+    border-radius: 5px;     
+    background-color:rgb(140, 240, 247); 
+    color: rgb(22, 85, 56);           
+}
+
+.bkgd{
+    
+    text-align: center;
+    
+    color: rgb(140, 247, 197);
+    background-color: rgb(37, 138, 91);
+    padding: 20px;
+    
+}
+#b4{
+    
+    height: 50px;
+    width: 100px;
+}
+.bulb{
+    height: 50px;
+    width: 100px;
+    background-color: yellow;
+}
+
