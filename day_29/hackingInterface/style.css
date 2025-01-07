@@ -1,0 +1,78 @@
+body {
+    background-color: #000000; /* Pure black background */
+    color: #00ff00; /* Neon green text */
+    font-family: 'Fira Code', monospace; /* Sleek coding font */
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+h1, h2 {
+    color: #00ff00;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00; /* Glow effect */
+}
+
+p {
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00; /* Slight glow for text */
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.code {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #00ff00;
+    padding: 20px;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+    width: 80%;
+    margin: 20px 0;
+    text-align: left;
+    overflow-x: auto;
+}
+
+.cursor {
+    display: inline-block;
+    background-color: #00ff00;
+    width: 10px;
+    height: 20px;
+    margin-left: 5px;
+    animation: blink 0.6s infinite;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    60%, 100% {
+        opacity: 0%;
+    }
+}
+
+.button {
+    color: #000000;
+    background: linear-gradient(90deg, #00ff00, #003300);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, #ff0000, #330000);
+    box-shadow: 0 0 15px #ff0000, 0 0 30px #ff0000;
+}
