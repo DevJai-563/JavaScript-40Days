@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="alarmClock">
+        <h2>Set Alarm</h2>
+        
+        <input id="time" type="text" placeholder="Enter time">
+        
+        <select id="timeUnit" title="timeUnit">
+            <option value="minutes">Minutes</option>
+            <option value="seconds">Seconds</option>
+        </select>
+
+        <audio id="myAudio" >
+            <source src="music/alarm.mp3" type="audio/mp3">
+        </audio>
+
+        <button onclick="playAudio()">Set Alarm</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
